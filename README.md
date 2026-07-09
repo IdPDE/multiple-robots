@@ -7,9 +7,9 @@ Tested in ROS2 Jazzy Jalisco.
 
 ## Content
 This repository currently includes the following packages:
-* Description of package 1
-* Description of package 2
-* Description of package 3
+* differential_drive_controller: contains the controller for the 3 diff-drive robots (robots 4, 5 and 6). The differential controller is a copy of the ROS2 control diff drive controller, adapted so that the namenspace works properly and tf's are disabled (using tf_dummy) in order for ekf filter to publish the tf's.
+* ffw_swerve_drive_controller: contains the controller for the 3 4-wheeled-swerve-drive robots (robots 1, 2 and 3). The controller is based on the swerve controller from ROBOTIS AI Worker with the adaptation that the tf are relative and not global (/tf) so that every node/topic is namespace for each robot.
+* mulitple_robots
 
 
 ## Installation instructions & dependencies
