@@ -1,7 +1,7 @@
 # Multiple robots in ROS2
 Multipe robots (3 swerve drive and 3 diff drive) in Gazebo and Rviz with Nav2. Every node/topic/controller are linked to a robot by namespace.
 
-You can also add a figure here, for example this one:
+![Gazebo environment](figures/Gazebo.png)
 
 
 
