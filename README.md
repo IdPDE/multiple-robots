@@ -30,7 +30,7 @@ Make sure that the following are properly installed in the ROS2 Jazzy Jalisco en
 
 ## Execution of the project
 ### Launch enviroment with multiple robots
-This will launch one Gazebo enviroment and for every robot Rviz.
+This will launch one Gazebo enviroment and Rviz for every robot.
 ```console
 ros2 launch multiple_robots robots.launch.py
 ```
