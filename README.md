@@ -3,11 +3,6 @@ Multipe robots (3 swerve drive and 3 diff drive) in Gazebo and Rviz with Nav2. E
 
 ![Gazebo environment](figures/Gazebo.png)
 
-
-
-
-
-
 Description of test environment (e.g., linux & ROS2 distributions, other conditions).
 For example: Tested in ROS2 Jazzy Jalisco.
 > [!NOTE]
@@ -18,7 +13,7 @@ This repository currently includes the following packages:
 * Description of package 1
 * Description of package 2
 * Description of package 3
-* ...
+
 
 ## Installation instructions & dependencies
 
