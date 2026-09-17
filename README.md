@@ -22,10 +22,16 @@ git clone https://github.com/IdPDE/multiple-robots
 ```
 
 Make sure that the following are properly installed in the ROS2 Jazzy Jalisco environment:
-* Rviz 
-* Nav2
-* Robot state publisher
-* Joint state broadcaster
+* Ros2 Jazzy
+* Nav2:
+  ```console
+  sudo apt update
+  sudo apt install \
+    ros-$ROS_DISTRO-navigation2 \
+    ros-$ROS_DISTRO-nav2-bringup
+  ```
+* ros-jazzy-navigation2 and ros-jazzy-nav2-bringup
+* Ros2 control: 
 * GazeboSim Harmonic
 
 ## Execution of the project
