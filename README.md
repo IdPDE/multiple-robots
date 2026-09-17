@@ -21,8 +21,7 @@ cd src
 git clone https://github.com/IdPDE/multiple-robots
 ```
 
-Make sure that the following are properly installed in the ROS2 Jazzy Jalisco environment:
-* Ros2 Jazzy: https://docs.ros.org/en/jazzy/Installation/Ubuntu-Install-Debs.html
+Make sure that the following are properly installed in the ROS2 Jazzy Jalisco environment (https://docs.ros.org/en/jazzy/Installation/Ubuntu-Install-Debs.html):
 * Nav2:
   ```console
   sudo apt update
