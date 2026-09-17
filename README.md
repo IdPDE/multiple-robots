@@ -26,17 +26,18 @@ Make sure that the following are properly installed in the ROS2 Jazzy Jalisco en
   ```console
   sudo apt update
   sudo apt install \
-    ros-$ROS_DISTRO-navigation2 \
-    ros-$ROS_DISTRO-nav2-bringup
+    ros-jazzy-navigation2 \
+    ros-jazzy-nav2-bringup
   ```
 * Ros2 control:
   ```console
   sudo apt install ros-jazzy-ros2-control ros-jazzy-ros2-controllers
-  sudo apt install ros-$ROS_DISTRO-ros2-control-cmake
+  sudo apt install ros-jazzy-ros2-control-cmake
   ```
 * GazeboSim Harmonic
    ```console
-  sudo apt-get install ros-${ROS_DISTRO}-ros-gz
+  sudo apt-get install ros-jazzy-ros-gz
+  sudo apt install ros-jazzy-gz-ros2-control
   ```
 
 ## Execution of the project
